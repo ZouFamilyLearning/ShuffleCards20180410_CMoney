@@ -5,10 +5,3 @@ C:\Users\asus\source\github\ShuffleCards20180410_CMoney\ShuffleCards20180410_CMo
 C:\Users\asus\source\github\ShuffleCards20180410_CMoney\ShuffleCards20180410_CMoney\bin\Debug\ShuffleCards20180410_CMoney.pdb
 C:\Users\asus\source\github\ShuffleCards20180410_CMoney\ShuffleCards20180410_CMoney\obj\Debug\ShuffleCards20180410_CMoney.exe
 C:\Users\asus\source\github\ShuffleCards20180410_CMoney\ShuffleCards20180410_CMoney\obj\Debug\ShuffleCards20180410_CMoney.pdb
-C:\Users\ericm\Desktop\IDALearning\ShuffleCards20180410_CMoney\ShuffleCards20180410_CMoney\bin\Debug\ShuffleCards20180410_CMoney.exe.config
-C:\Users\ericm\Desktop\IDALearning\ShuffleCards20180410_CMoney\ShuffleCards20180410_CMoney\bin\Debug\ShuffleCards20180410_CMoney.exe
-C:\Users\ericm\Desktop\IDALearning\ShuffleCards20180410_CMoney\ShuffleCards20180410_CMoney\bin\Debug\ShuffleCards20180410_CMoney.pdb
-C:\Users\ericm\Desktop\IDALearning\ShuffleCards20180410_CMoney\ShuffleCards20180410_CMoney\obj\Debug\ShuffleCards20180410_CMoney.csprojResolveAssemblyReference.cache
-C:\Users\ericm\Desktop\IDALearning\ShuffleCards20180410_CMoney\ShuffleCards20180410_CMoney\obj\Debug\ShuffleCards20180410_CMoney.csproj.CoreCompileInputs.cache
-C:\Users\ericm\Desktop\IDALearning\ShuffleCards20180410_CMoney\ShuffleCards20180410_CMoney\obj\Debug\ShuffleCards20180410_CMoney.exe
-C:\Users\ericm\Desktop\IDALearning\ShuffleCards20180410_CMoney\ShuffleCards20180410_CMoney\obj\Debug\ShuffleCards20180410_CMoney.pdb

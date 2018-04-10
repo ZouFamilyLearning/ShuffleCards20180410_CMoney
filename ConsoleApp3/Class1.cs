@@ -6,9 +6,26 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp3
 {
+    class Cards
+    {
+        public string[] cardsForm;
+        public string[] cardsNumber;
+        public int[,] cardArray;
+        public int counter;
+
+
+        public void newCards(string[] cardsForm, string[] cardsNumber, int[,] cardArray, int counter)
+        {
+            this.cardsForm = cardsForm;
+            this.cardsNumber = cardsNumber;
+            this.cardArray = cardArray;
+            this.counter = counter;
+        }
+    }
     class ShuffleCards : Cards
     {
-        Random RamCard = new Random();
+        Random RamCardi = new Random();
+        Random RamCardj = new Random();
 
         public int remainCards()
         {
@@ -50,8 +67,8 @@ namespace ConsoleApp3
             bool hehe = true;
             do
             {
-                int x = RamCard.Next(0, 4);
-                int y = RamCard.Next(0, 13);
+                int x = RamCardi.Next(0, 4);
+                int y = RamCardj.Next(0, 13);
                 if (tmp)
                 {
                     if (cardArray[x, y] == 0)

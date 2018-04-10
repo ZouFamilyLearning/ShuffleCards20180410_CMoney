@@ -16,11 +16,11 @@ namespace ConsoleApp3
             string[] cardsForm = new string[4] { "黑桃", "紅心", "方塊", "梅花" };
             string[] cardsNumber = new string[13] { "01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "J", "Q", "K" };
             int counter = 52;
-
             do
             {
+                Cards cards = new Cards();
                 ShuffleCards shufflecards = new ShuffleCards();
-                shufflecards.newCards(cardsForm, cardsNumber, cardArray, counter);
+                cards.newCards(cardsForm, cardsNumber, cardArray, counter);
 
                 //int i = x.Next(0, 4);
                 //int j = y.Next(0, 13);
