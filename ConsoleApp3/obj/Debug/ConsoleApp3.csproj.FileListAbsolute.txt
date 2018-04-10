@@ -5,3 +5,10 @@ C:\Users\asus\source\github\ShuffleCards20180410_CMoney\ConsoleApp3\obj\Debug\Co
 C:\Users\asus\source\github\ShuffleCards20180410_CMoney\ConsoleApp3\obj\Debug\ConsoleApp3.csproj.CoreCompileInputs.cache
 C:\Users\asus\source\github\ShuffleCards20180410_CMoney\ConsoleApp3\obj\Debug\ConsoleApp3.exe
 C:\Users\asus\source\github\ShuffleCards20180410_CMoney\ConsoleApp3\obj\Debug\ConsoleApp3.pdb
+C:\Users\ericm\Desktop\IDALearning\ShuffleCards20180410_CMoney\ConsoleApp3\bin\Debug\ConsoleApp3.exe.config
+C:\Users\ericm\Desktop\IDALearning\ShuffleCards20180410_CMoney\ConsoleApp3\bin\Debug\ConsoleApp3.exe
+C:\Users\ericm\Desktop\IDALearning\ShuffleCards20180410_CMoney\ConsoleApp3\bin\Debug\ConsoleApp3.pdb
+C:\Users\ericm\Desktop\IDALearning\ShuffleCards20180410_CMoney\ConsoleApp3\obj\Debug\ConsoleApp3.csprojResolveAssemblyReference.cache
+C:\Users\ericm\Desktop\IDALearning\ShuffleCards20180410_CMoney\ConsoleApp3\obj\Debug\ConsoleApp3.csproj.CoreCompileInputs.cache
+C:\Users\ericm\Desktop\IDALearning\ShuffleCards20180410_CMoney\ConsoleApp3\obj\Debug\ConsoleApp3.exe
+C:\Users\ericm\Desktop\IDALearning\ShuffleCards20180410_CMoney\ConsoleApp3\obj\Debug\ConsoleApp3.pdb
