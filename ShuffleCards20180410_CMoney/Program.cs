@@ -8,15 +8,12 @@ namespace ShuffleCards20180410_CMoney
 {
     class Program
     {
-
         static void Main(string[] args)
         {
             bool haha = true;
             int input;
             do
             {
-                int counter = 52;
-                Cards cardsNew = new Cards();
                 ShuffleCards cardNum = new ShuffleCards();
                 //cardsNew.newCards();
                 do
@@ -28,20 +25,22 @@ namespace ShuffleCards20180410_CMoney
                         case 1:// 發剩下的牌(有花色和數字)
                             Console.Clear();
                             Console.WriteLine($"{cardNum.remainCards()}張");
-                            // Console.WriteLine(cardNum.ToString());
+                            Console.WriteLine(cardNum.ToString());
                             break;
                         case 2:// 隨機給使用者的牌(有花色和數字)
-                            Console.Clear();
-                            bool tmp1 = counter != 0 ? true : false;
+                            {
+                                Console.Clear();
 
-                            cardNum.getCard(tmp1);
-                            break;
+                                cardNum.getCard();
+                                break;
+                            }
                         case 3:
-                            Console.Clear();
-                            bool tmp4 = counter > 4 ? true : false;
-                            for (int i = 0; i < 4; i++)
-                            { cardNum.getCard(tmp4); }
-                            break;
+                            {
+                                Console.Clear();
+                                for (int i = 0; i < 4; i++)
+                                { cardNum.getCard(); }
+                                break;
+                            }
                         default:
                             break;
                     }
@@ -49,6 +48,7 @@ namespace ShuffleCards20180410_CMoney
                 } while (input != -1);
                 if (input == -1)
                 {
+                    Console.WriteLine("程式結束");
                     haha = false;
                     break;
                 }
