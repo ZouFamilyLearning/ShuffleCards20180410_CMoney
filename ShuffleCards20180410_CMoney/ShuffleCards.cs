@@ -17,7 +17,7 @@ namespace ShuffleCards20180410_CMoney
             {
                 for (int j = 0; j < 13; j++)
                 {
-                    if (cards[i, j] == 0)// 1
+                    if (cards[i, j] == 0)
                     {
                         count++;
                     }
@@ -61,7 +61,7 @@ namespace ShuffleCards20180410_CMoney
             {
                 for (int j = 0; j < 13; j++)
                 {
-                    if (cards[i, j] == 0)// 1
+                    if (cards[i, j] == 0)
                     {
                         List<int> smallList = new List<int>();
                         smallList.Add(i);

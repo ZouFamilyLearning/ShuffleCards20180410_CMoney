@@ -10,49 +10,41 @@ namespace ShuffleCards20180410_CMoney
     {
         static void Main(string[] args)
         {
-            bool haha = true;
             int input;
+            ShuffleCards cardNum = new ShuffleCards();
             do
             {
-                ShuffleCards cardNum = new ShuffleCards();
-                //cardsNew.newCards();
-                do
+                Console.Write("Options: 1)remain cards, 2)get card, 3)發四張牌, 4)Peek, -1)Quit: ");
+                input = int.Parse(Console.ReadLine());
+                switch (input)
                 {
-                    Console.Write("Options: 1)remain cards, 2)get card, 3)發四張牌, -1)Quit: ");
-                    input = int.Parse(Console.ReadLine());
-                    switch (input)
-                    {
-                        case 1:// 發剩下的牌(有花色和數字)
+                    case 1:// 發剩下的牌(有花色和數字)
+                        Console.Clear();
+                        Console.WriteLine($"{cardNum.remainCards()}張");
+                        Console.WriteLine(cardNum.ToString());
+                        break;
+                    case 2:// 隨機給使用者的牌(有花色和數字)
+                        {
                             Console.Clear();
-                            Console.WriteLine($"{cardNum.remainCards()}張");
-                            Console.WriteLine(cardNum.ToString());
+                            cardNum.getCard();
                             break;
-                        case 2:// 隨機給使用者的牌(有花色和數字)
-                            {
-                                Console.Clear();
-
-                                cardNum.getCard();
-                                break;
-                            }
-                        case 3:
-                            {
-                                Console.Clear();
-                                for (int i = 0; i < 4; i++)
-                                { cardNum.getCard(); }
-                                break;
-                            }
-                        default:
+                        }
+                    case 3:
+                        {
+                            Console.Clear();
+                            for (int i = 0; i < 4; i++)
+                            { cardNum.getCard(); }
                             break;
-                    }
-                    Console.WriteLine("--------------------------------------------------------");
-                } while (input != -1);
-                if (input == -1)
-                {
-                    Console.WriteLine("程式結束");
-                    haha = false;
-                    break;
+                        }
+                    default:
+                        break;
                 }
-            } while (haha == true);
+                Console.WriteLine("--------------------------------------------------------");
+            } while (input != -1);
+            if (input == -1)
+            {
+                Console.WriteLine("程式結束");
+            }
             Console.ReadKey();
         }
     }

@@ -19,11 +19,12 @@ namespace ConsoleApp3
 
             do
             {
+                Cards cards = new Cards();
                 ShuffleCards shufflecards = new ShuffleCards();
+                cards.newCards(cardsForm, cardsNumber, cardArray, counter);
                 shufflecards.newCards(cardsForm, cardsNumber, cardArray, counter);
 
-                //int i = x.Next(0, 4);
-                //int j = y.Next(0, 13);
+
 
                 do
                 {
